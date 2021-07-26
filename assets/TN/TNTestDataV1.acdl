@@ -1,0 +1,14 @@
+<asset_composite xmlns="http://namespaces.softwareag.com/acdl/1.0" name="TNTestDataV1" displayName="TNTestDataV1" targetNamespace="http://namespaces.softwareag.com/webMethods/TN" runtimeVersion="10.3.0.0">
+  <buildInfo name="BuildTimestamp" value="2021-07-26T19:10:50" />
+  <buildInfo name="MinimumTargetRuntimeVersion" value="10.3.0.0" />
+  <asset name="documenttype.m1822400f6dr13pp000000ql.V01TU2NhbGVJbmJvdW5kU2hpcENvbmZpcm1FQ09N" displayName="WMSScaleInboundShipConfirmECOM">
+    <implementation.generic type="documenttype" />
+    <property name="Document Type Status" displayName="Document Type Status">
+      <value>enabled</value>
+    </property>
+    <dependsOn>TN:documentattribute.5621c000ba2v0tm900005576.VFJCX0RPQ1VNRU5UX05VTUJFUg==</dependsOn>
+    <dependsOn>TN:documentattribute.ApplicationReference----.QXBwbGljYXRpb25SZWZlcmVuY2U=</dependsOn>
+    <dependsOn>TN:documentattribute.5621c000bimnoni90000020q.VFJCX1JFRl9OVU1CRVI=</dependsOn>
+  </asset>
+</asset_composite>
+

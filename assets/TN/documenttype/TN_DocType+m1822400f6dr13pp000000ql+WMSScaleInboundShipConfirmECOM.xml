@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <record name="version" javaclass="com.wm.data.ISMemDataImpl">
+      <value name="major">9</value>
+      <value name="minor">0</value>
+    </record>
+    <record name="types" javaclass="com.wm.data.ISMemDataImpl">
+      <idatacodable name="m1822400f6dr13pp000000ql" javaclass="com.wm.app.tn.doc.XMLDocType">
+        <value name="TypeID">m1822400f6dr13pp000000ql</value>
+        <value name="TypeName">WMSScaleInboundShipConfirmECOM</value>
+        <value name="TypeDescription">WMSScaleInboundShipConfirmECOM</value>
+        <idatacodable name="Deleted" javaclass="com.wm.data.MBoolean">          <value name="MBoolean">false</value>
+        </idatacodable>
+        <idatacodable name="Hidden" javaclass="com.wm.data.MBoolean">          <value name="MBoolean">false</value>
+        </idatacodable>
+        <idatacodable name="SenderFromSession" javaclass="com.wm.data.MBoolean">          <value name="MBoolean">false</value>
+        </idatacodable>
+        <value name="LastModified">2021-06-17 05:44:00.38</value>
+        <value name="ValidationSvc">wm.tn.doc.xml:validate</value>
+        <value name="VerificationSvc">wm.tn.doc.xml:verify</value>
+        <value name="SigningSvc">wm.tn.doc.xml:sign</value>
+        <record name="PreProcessingFlags" javaclass="com.wm.app.tn.route.PreRoutingFlags">
+          <value name="verify?">no</value>
+          <value name="validate?">no</value>
+          <value name="persist?">yes</value>
+          <value name="unique?">don't care</value>
+          <value name="persistOption?">content, attributes and activity log</value>
+          <null name="dupCheckSvc"/>
+        </record>
+        <record name="Attributes" javaclass="com.wm.data.ISMemDataImpl">
+          <idatacodable name="5621c000ba2v0tm900005576" javaclass="com.wm.app.tn.doc.BizDocAttributeTransform">
+            <value name="function">-1</value>
+            <null name="svc"/>
+            <array name="args" type="value" depth="1">
+              <value></value>
+            </array>
+            <value name="preFunction">-1</value>
+            <array name="preFnArgs" type="value" depth="1">
+              <null/>
+            </array>
+            <record name="attrib" javaclass="com.wm.app.tn.doc.BizDocAttribute">
+              <value name="AttributeID">5621c000ba2v0tm900005576</value>
+              <value name="AttributeName">TRB_DOCUMENT_NUMBER</value>
+              <value name="AttributeDescription">TRB_DOCUMENT_NUMBER</value>
+              <value name="AttributeType">STRING</value>
+              <idatacodable name="Deleted?" javaclass="com.wm.data.MBoolean">                <value name="MBoolean">false</value>
+              </idatacodable>
+              <idatacodable name="Persist?" javaclass="com.wm.data.MBoolean">                <value name="MBoolean">true</value>
+              </idatacodable>
+              <value name="LastModifiedTime">2020-03-13 09:35:41.89</value>
+              <value name="VERSION_NO">10.3.0.0</value>
+              <idatacodable name="System?" javaclass="com.wm.data.MBoolean">                <value name="MBoolean">false</value>
+              </idatacodable>
+            </record>
+            <null name="IDTypeName"/>
+            <value name="VERSION_NO">10.3.0.0</value>
+          </idatacodable>
+          <idatacodable name="5621c000bimnoni90000020q" javaclass="com.wm.app.tn.doc.BizDocAttributeTransform">
+            <value name="function">-1</value>
+            <null name="svc"/>
+            <array name="args" type="value" depth="1">
+              <value></value>
+            </array>
+            <value name="preFunction">-1</value>
+            <array name="preFnArgs" type="value" depth="1">
+              <null/>
+            </array>
+            <record name="attrib" javaclass="com.wm.app.tn.doc.BizDocAttribute">
+              <value name="AttributeID">5621c000bimnoni90000020q</value>
+              <value name="AttributeName">TRB_REF_NUMBER</value>
+              <value name="AttributeDescription">TRB Attribute</value>
+              <value name="AttributeType">STRING</value>
+              <idatacodable name="Deleted?" javaclass="com.wm.data.MBoolean">                <value name="MBoolean">false</value>
+              </idatacodable>
+              <idatacodable name="Persist?" javaclass="com.wm.data.MBoolean">                <value name="MBoolean">true</value>
+              </idatacodable>
+              <value name="LastModifiedTime">2020-03-13 09:35:42.173</value>
+              <value name="VERSION_NO">10.3.0.0</value>
+              <idatacodable name="System?" javaclass="com.wm.data.MBoolean">                <value name="MBoolean">false</value>
+              </idatacodable>
+            </record>
+            <null name="IDTypeName"/>
+            <value name="VERSION_NO">10.3.0.0</value>
+          </idatacodable>
+          <idatacodable name="ApplicationReference----" javaclass="com.wm.app.tn.doc.BizDocAttributeTransform">
+            <value name="function">-1</value>
+            <null name="svc"/>
+            <array name="args" type="value" depth="1">
+              <value></value>
+            </array>
+            <value name="preFunction">-1</value>
+            <array name="preFnArgs" type="value" depth="1">
+              <null/>
+            </array>
+            <record name="attrib" javaclass="com.wm.app.tn.doc.BizDocAttribute">
+              <value name="AttributeID">ApplicationReference----</value>
+              <value name="AttributeName">ApplicationReference</value>
+              <value name="AttributeDescription">ApplicationReference</value>
+              <value name="AttributeType">STRING</value>
+              <idatacodable name="Deleted?" javaclass="com.wm.data.MBoolean">                <value name="MBoolean">false</value>
+              </idatacodable>
+              <idatacodable name="Persist?" javaclass="com.wm.data.MBoolean">                <value name="MBoolean">true</value>
+              </idatacodable>
+              <value name="LastModifiedTime">2020-08-17 08:33:31.783</value>
+              <value name="VERSION_NO">10.3.0.0</value>
+              <idatacodable name="System?" javaclass="com.wm.data.MBoolean">                <value name="MBoolean">false</value>
+              </idatacodable>
+            </record>
+            <null name="IDTypeName"/>
+            <value name="VERSION_NO">10.3.0.0</value>
+          </idatacodable>
+        </record>
+        <record name="RequiredAttributes" javaclass="com.wm.data.ISMemDataImpl">
+          <value name="5621c000ba2v0tm900005576">false</value>
+          <value name="5621c000bimnoni90000020q">false</value>
+          <value name="ApplicationReference----">false</value>
+        </record>
+        <null name="PipelineMatchIData"/>
+        <idatacodable name="Routing" javaclass="com.wm.data.MBoolean">          <value name="MBoolean">true</value>
+        </idatacodable>
+        <idatacodable name="BAMMonitorableDoctype" javaclass="com.wm.data.MBoolean">          <value name="MBoolean">false</value>
+        </idatacodable>
+        <null name="BAMMonitoringAttributes"/>
+        <null name="BAMEventMap"/>
+        <null name="BAMAction"/>
+        <null name="BAMEventMapName"/>
+        <null name="SubDocTypeID"/>
+        <null name="BAMAttrListEventOption"/>
+        <null name="BAMDocTypeMapping"/>
+        <null name="BAMDocTypeDependency"/>
+        <value name="Type">1</value>
+        <array name="queries" type="value" depth="1">
+          <value>/prefix0:WMWROOT[0]/prefix0:WMWDATA[0]/prefix0:WMFWUpload[0]/prefix0:Shipments[0]/prefix0:Shipment[0]/prefix0:OrderType[0]</value>
+        </array>
+        <null name="envelopeIData"/>
+        <array name="nsDecls" type="value" depth="2">
+          <array type="value" depth="1">
+            <value>prefix0</value>
+            <value>http://www.manh.com/ILSNET/Interface</value>
+          </array>
+        </array>
+        <record name="attribQueries" javaclass="com.wm.data.ISMemDataImpl">
+          <value name="5621c000ba2v0tm900005576">/prefix0:WMWROOT[0]/prefix0:WMWDATA[0]/prefix0:WMFWUpload[0]/prefix0:Shipments[0]/prefix0:Shipment[0]/prefix0:ErpOrder[0]</value>
+          <value name="5621c000bimnoni90000020q">/prefix0:WMWROOT[0]/prefix0:WMWDATA[0]/prefix0:WMFWUpload[0]/prefix0:Shipments[0]/prefix0:Shipment[0]/prefix0:ShipmentId[0]</value>
+          <value name="ApplicationReference----">/prefix0:WMWROOT[0]/prefix0:WMWDATA[0]/prefix0:WMFWUpload[0]/prefix0:Shipments[0]/prefix0:Shipment[0]/prefix0:Warehouse[0]</value>
+        </record>
+        <array name="qryEvals" type="value" depth="1">
+          <value>EC</value>
+        </array>
+        <value name="docType"></value>
+        <value name="dtd"></value>
+        <null name="sig_queries"/>
+        <value name="VERSION_NO">10.3.0.0</value>
+      </idatacodable>
+    </record>
+  </record>
+</IDataXMLCoder>
