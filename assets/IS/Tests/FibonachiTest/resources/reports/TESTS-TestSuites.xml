@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="DESKTOP-T1T3I84" id="0" name="WmTestSuite [FibonachiTest]" package="com.wm.ps.test" tests="2" time="1.334" timestamp="2021-07-21T11:13:01">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="isTests" value="./assets/IS/Tests" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="testISUsername" value="Administrator" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="rulesProjectsDir" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\TestPipeline\assets\Rules" />
+
+          <property name="sun.boot.class.path" value="E:\SoftwareAGServer912\jvm\jvm\jre\lib\resources.jar;E:\SoftwareAGServer912\jvm\jvm\jre\lib\rt.jar;E:\SoftwareAGServer912\jvm\jvm\jre\lib\sunrsasign.jar;E:\SoftwareAGServer912\jvm\jvm\jre\lib\jsse.jar;E:\SoftwareAGServer912\jvm\jvm\jre\lib\jce.jar;E:\SoftwareAGServer912\jvm\jvm\jre\lib\charsets.jar;E:\SoftwareAGServer912\jvm\jvm\jre\lib\jfr.jar;E:\SoftwareAGServer912\jvm\jvm\jre\classes" />
+
+          <property name="workspace.dir" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\TestPipeline" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="isPackages" value="./assets/IS/Packages" />
+
+          <property name="ant.file.type.ProjectInitializer" value="file" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="SAGHome" value="E:\\SoftwareAGServer912" />
+
+          <property name="ant.home" value="E:\SoftwareAGServer912\common\lib\ant\bin\.." />
+
+          <property name="abeHome" value="E:\\SoftwareAGServer912/common/AssetBuildEnvironment" />
+
+          <property name="java.runtime.version" value="1.8.0_101-b13" />
+
+          <property name="isProjectsDir" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\TestPipeline\assets\IS\Packages" />
+
+          <property name="ant.file.Build and Deploy Solution" value="E:\SoftwareAGServer912\CIAndCD\sagdevops-ci-assets-master\sagdevops-ci-assets-master\build.xml" />
+
+          <property name="user.name" value="DESKTOP-T1T3I84$" />
+
+          <property name="isTestDir" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\TestPipeline\assets\IS\Tests" />
+
+          <property name="isWindows" value="true" />
+
+          <property name="bpmProjectsDir" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\TestPipeline\assets\BPM" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="E:\SoftwareAGServer912\jvm\jvm\jre\bin" />
+
+          <property name="ant.file.type.Build" value="file" />
+
+          <property name="ant.project.default-target" value="buildDeployTest" />
+
+          <property name="ant.file.type.Deploy" value="file" />
+
+          <property name="ant.project.name" value="Build and Deploy Solution" />
+
+          <property name="java.version" value="1.8.0_101" />
+
+          <property name="deployerHost" value="localhost" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="ant.file.Build" value="E:\SoftwareAGServer912\CIAndCD\sagdevops-ci-assets-master\sagdevops-ci-assets-master\buildCallABE.xml" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="buildOutputDir" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\TestPipeline/target/TestPipeline/build" />
+
+          <property name="fileBasename" value="FibonachiTest" />
+
+          <property name="mwsProjects" value="./assets/MWS/" />
+
+          <property name="java.endorsed.dirs" value="E:\SoftwareAGServer912\jvm\jvm\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="projectName" value="TestPipeline" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="testPackageName" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\TestPipeline\assets\IS\Tests\FibonachiTest" />
+
+          <property name="repositoryName" value="TestPipelineRepo" />
+
+          <property name="webMethods.test.setup.filename" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\TestPipeline\assets\IS\Tests\FibonachiTest\resources\test\xml\setup\FibonachiTest.xml" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="webMethods.integrationServer.userid" value="Administrator" />
+
+          <property name="java.home" value="E:\SoftwareAGServer912\jvm\jvm\jre" />
+
+          <property name="deployerProjectDefinitionTemplate" value="resources/ProjectSpecificationTemplate.xml" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="E:\SoftwareAGServer912\CIAndCD\sagdevops-ci-assets-master\sagdevops-ci-assets-master\build.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="bpmProjects" value="./assets/BPM/" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.101-b13" />
+
+          <property name="ant.file.type.Build and Deploy Solution" value="file" />
+
+          <property name="abeBuildfileDir" value="master_build" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="E:\SoftwareAGServer912\common\lib\ant\lib" />
+
+          <property name="webMethods.integrationServer.port" value="9120" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="rulesProjects" value="./assets/Rules/" />
+
+          <property name="user.script" value="" />
+
+          <property name="testISHost" value="localhost" />
+
+          <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile" />
+
+          <property name="mwsProjectsDir" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\TestPipeline\assets\MWS" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.library.path" value="E:\SoftwareAGServer912\jvm\jvm\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Boxstarter;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft VS Code\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\GnuPG\bin;C:\maven\bin;C:\Go\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;." />
+
+          <property name="resourcesFolder" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\TestPipeline\assets\IS\Tests\FibonachiTest/resources" />
+
+          <property name="ant.file.testBuild" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\TestPipeline\build.xml" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.wm.ps.test.WmTestSuite filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\TestPipeline\assets\IS\Tests\FibonachiTest\resources\reports\TEST-FibonachiTest.xml crashfile=E:\SoftwareAGServer912\CIAndCD\sagdevops-ci-assets-master\sagdevops-ci-assets-master\junitvmwatcher2749330328278838968.properties propsfile=E:\SoftwareAGServer912\CIAndCD\sagdevops-ci-assets-master\sagdevops-ci-assets-master\junit1221549893665146147.properties" />
+
+          <property name="java.class.path" value="E:\SoftwareAGServer912\common\lib\ext\enttoolkit.jar;E:\SoftwareAGServer912\common\lib\glassfish\gf.javax.mail.jar;E:\SoftwareAGServer912\common\lib\wm-isclient.jar;E:\SoftwareAGServer912\IntegrationServer\lib\wm-isserver.jar;E:\SoftwareAGServer912\CIAndCD\sagdevops-ci-assets-master\sagdevops-ci-assets-master\lib\httpunit.jar;E:\SoftwareAGServer912\CIAndCD\sagdevops-ci-assets-master\sagdevops-ci-assets-master\lib\junit-4.8.2.jar;E:\SoftwareAGServer912\CIAndCD\sagdevops-ci-assets-master\sagdevops-ci-assets-master\lib\xmlunit1.0.jar;E:\SoftwareAGServer912\CIAndCD\sagdevops-ci-assets-master\sagdevops-ci-assets-master\lib\serviceInterceptor.jar;E:\SoftwareAGServer912\CIAndCD\sagdevops-ci-assets-master\sagdevops-ci-assets-master\lib\serviceMockClient.jar;E:\SoftwareAGServer912\common\lib\ant\lib\ant-launcher.jar;E:\SoftwareAGServer912\common\lib\ant\lib\ant.jar;E:\SoftwareAGServer912\common\lib\ant\lib\ant-junit.jar;E:\SoftwareAGServer912\common\lib\ant\lib\ant-junit4.jar" />
+
+          <property name="deployerPort" value="9120" />
+
+          <property name="umProjectsDir" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\TestPipeline\assets\UniversalMessaging" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="umExport" value="./assets/UniversalMessaging" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="deployerInstallationPath" value="E:\\SoftwareAGServer912/IntegrationServer/instances/WebmethodsRnD/packages/WmDeployer/bin/" />
+
+          <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\" />
+
+          <property name="testPackageNamePattern" value="*_Test" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="ant.file.test" value="E:\SoftwareAGServer912\CIAndCD\sagdevops-ci-assets-master\sagdevops-ci-assets-master\buildTest.xml" />
+
+          <property name="webMethods.integrationServer.name" value="localhost" />
+
+          <property name="ant.file.type.test" value="file" />
+
+          <property name="jenkinsReportDir" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\TestPipeline/report" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="failedTestList" value="" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="deployerProjectDefinition" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\TestPipeline/ProjectAutomator/TestPipelineDeploymentSpec.xml" />
+
+          <property name="java.ext.dirs" value="E:\SoftwareAGServer912\jvm\jvm\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="ant.file.type.testBuild" value="file" />
+
+          <property name="user.dir" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\TestPipeline\assets\IS\Tests\FibonachiTest" />
+
+          <property name="testPackageReportsDir" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\TestPipeline\assets\IS\Tests\FibonachiTest/resources/reports" />
+
+          <property name="ant.file.Deploy" value="E:\SoftwareAGServer912\CIAndCD\sagdevops-ci-assets-master\sagdevops-ci-assets-master\buildDeployer.xml" />
+
+          <property name="abeBuildPropertiesReference" value="master_build_Reference/build.properties" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="isConfigDir" value="./assets/IS/config" />
+
+          <property name="SAG_CI_HOME" value="E:\\SoftwareAGServer912\\CIAndCD\\sagdevops-ci-assets-master\\sagdevops-ci-assets-master" />
+
+          <property name="basedir" value="E:\SoftwareAGServer912\CIAndCD\sagdevops-ci-assets-master\sagdevops-ci-assets-master" />
+
+          <property name="deployerPassword" value="manage" />
+
+          <property name="ant.file.ProjectInitializer" value="E:\SoftwareAGServer912\CIAndCD\sagdevops-ci-assets-master\sagdevops-ci-assets-master\buildInitProject.xml" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="ant.core.lib" value="E:\SoftwareAGServer912\common\lib\ant\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="isReportingToJenkins" value="true" />
+
+          <property name="testISPort" value="9120" />
+
+          <property name="abeBuildfileFile" value="build.xml" />
+
+          <property name="webMethods.integrationServer.password" value="manage" />
+
+          <property name="deployerUsername" value="Administrator" />
+
+          <property name="initialXSLT" value="resources/setUpInitial.xslt" />
+
+          <property name="testSuitePackagesPath" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\TestPipeline\assets\IS\Tests" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="testISPassword" value="manage" />
+
+          <property name="ant.project.invoked-targets" value="junitTestAndReportXML" />
+
+      </properties>
+
+      <testcase classname="com.wm.ps.test.WmTestCase" name="Straigt Case" time="0.89" />
+
+      <testcase classname="com.wm.ps.test.WmTestCase" name="TestException" time="0.427" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>
