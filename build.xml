@@ -38,45 +38,35 @@
 
 
 	<target name="buildDeployTest" depends="">
-        	<ant dir="${SAG_CI_HOME}" antfile="${SAG_CI_HOME}/build.xml" target="buildDeployTest" inheritAll="true"/>
+        	<ant dir="master-config" antfile="master-config/build.xml" target="buildDeployTest" inheritAll="true"/>
 	</target>
 
         <target name="build" depends="">
-        	<ant dir="${SAG_CI_HOME}" antfile="${SAG_CI_HOME}/build.xml" target="build" inheritAll="true"/>
+        	<ant dir="master-config" antfile="master-config/build.xml" target="build" inheritAll="true"/>
 	</target>
 
 	<target name="DeployerPrepartion" depends="">
-        	<ant dir="${SAG_CI_HOME}" antfile="${SAG_CI_HOME}/build.xml" target="DeployerPrepartion" inheritAll="true"/>
+        	<ant dir="master-config" antfile="master-config/build.xml" target="DeployerPrepartion" inheritAll="true"/>
 	</target>
 	
 	<target name="Simulate" depends="">
-        	<ant dir="${SAG_CI_HOME}" antfile="${SAG_CI_HOME}/build.xml" target="Simulate" inheritAll="true"/>
+        	<ant dir="master-config" antfile="master-config/build.xml" target="Simulate" inheritAll="true"/>
 	</target>
 	
 	<target name="DeployCP" depends="">
-        	<ant dir="${SAG_CI_HOME}" antfile="${SAG_CI_HOME}/build.xml" target="DeployCP" inheritAll="true"/>
+        	<ant dir="master-config" antfile="master-config/build.xml" target="DeployCP" inheritAll="true"/>
 	</target>
 	
 	<target name="Deploy" depends="">
-        	<ant dir="${SAG_CI_HOME}" antfile="${SAG_CI_HOME}/build.xml" target="Deploy" inheritAll="true"/>
+        	<ant dir="master-config" antfile="master-config/build.xml" target="Deploy" inheritAll="true"/>
 	</target>
 	
 	<target name="Rollback" depends="">
-        	<ant dir="${SAG_CI_HOME}" antfile="${SAG_CI_HOME}/build.xml" target="Rollback" inheritAll="true"/>
+        	<ant dir="master-config" antfile="master-config/build.xml" target="Rollback" inheritAll="true"/>
 	</target>
 	
-	        <target name="test" depends="">
-        	<ant dir="${SAG_CI_HOME}" antfile="${SAG_CI_HOME}/build.xml" target="test" inheritAll="true"/>
+	<target name="test" depends="">
+        	<ant dir="master-config" antfile="master-config/build.xml" target="test" inheritAll="true"/>
 	</target>
 	
-	<!--
-        <target name="deploy" depends="">
-        	<ant dir="${SAG_CI_HOME}" antfile="${SAG_CI_HOME}/build.xml" target="deploy" inheritAll="true"/>
-	</target>
-
-        <target name="test" depends="">
-        	<ant dir="${SAG_CI_HOME}" antfile="${SAG_CI_HOME}/build.xml" target="test" inheritAll="true"/>
-	</target>
-	-->
 </project>
-
