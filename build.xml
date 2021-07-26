@@ -27,6 +27,7 @@
         <property name="isProjectsDir" location="${isPackages}"/>
 	<property name="isTNDir" location="${isTN}"/>
         <property name="isTestDir" location="${isTests}"/>
+	<property name="isConfigDir" location="${isConfig}"/>
         <property name="bpmProjectsDir" location="${bpmProjects}"/>
         <property name="mwsProjectsDir" location="${mwsProjects}"/>
         <property name="rulesProjectsDir" location="${rulesProjects}"/>
