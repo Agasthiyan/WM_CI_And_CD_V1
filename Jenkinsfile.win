@@ -29,8 +29,10 @@
     
      stage('Check out'){
      
-     		deleteDir()
+  
 			steps {
+			
+			   		deleteDir()
                 dir('assets\\IS\\Packages') {
                     git branch: 'main', credentialsId: 'GitCred', url: 'https://github.com/Agasthiyan/WMS_CI_And_CD.git'
                 }
